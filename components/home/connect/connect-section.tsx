@@ -16,8 +16,8 @@ interface ConnectSectionProps {
 
 export function ConnectSection({ organization }: ConnectSectionProps) {
   return (
-    <div className="flex flex-col items-center gap-2 sm:gap-3 mt-2 sm:mt-4">
-      <p className="text-xs sm:text-sm text-black/60 font-martian-mono max-w-md text-center ">
+    <div className="flex flex-col items-center gap-2 sm:gap-3 mt-1 sm:mt-2">
+      <p className="text-xs sm:text-sm text-black/60 font-martian-mono max-w-md text-center px-2">
         Cultivating the next generation of AI leaders at <span style={{ color: organization.color }} className="font-bold">{organization.university}</span>
       </p>
       <div className="flex items-center gap-1.5 sm:gap-2 flex-wrap justify-center">

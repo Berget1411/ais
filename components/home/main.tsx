@@ -105,7 +105,7 @@ export function Main({ currentIndex, onIndexChange }: { currentIndex: number; on
 
   return (
     <motion.div 
-      className="flex flex-col items-center justify-center min-h-screen relative px-4"
+      className="flex flex-col items-center justify-center flex-1 relative px-4 py-6 sm:py-8"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, margin: "-100px" }}
@@ -118,14 +118,14 @@ export function Main({ currentIndex, onIndexChange }: { currentIndex: number; on
           animate="visible"
           exit="hidden"
           variants={VARIANTS_CONTAINER}
-          className="flex flex-col items-center gap-4"
+          className="flex flex-col items-center gap-3 sm:gap-4"
         >
           <motion.div 
             className="flex items-center gap-3 sm:gap-4 md:gap-8"
             variants={VARIANTS_SECTION}
           >
             <motion.div 
-              className="flex flex-col items-center justify-center gap-3"
+              className="flex flex-col items-center justify-center gap-2 sm:gap-3"
               variants={VARIANTS_SECTION}
             >   
               <Image 
@@ -133,16 +133,16 @@ export function Main({ currentIndex, onIndexChange }: { currentIndex: number; on
                 alt={currentOrg.name} 
                 width={150} 
                 height={150}
-                className='rounded w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-[150px] lg:h-[150px]'
+                className='rounded w-14 h-14 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-[150px] lg:h-[150px]'
               />
              
             </motion.div>
             <motion.div 
-              className="h-16 sm:h-24 md:h-32 w-px bg-gray-900 shrink-0 shadow-[0_0_8px_rgba(255,255,255,0.8)]"
+              className="h-14 sm:h-20 md:h-28 lg:h-32 w-px bg-gray-900 shrink-0 shadow-[0_0_8px_rgba(255,255,255,0.8)]"
               variants={VARIANTS_SECTION}
             />
             <motion.h1 
-              className="font-times text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-normal text-gray-900 [text-shadow:0_0_20px_rgb(255_255_255/90%),0_0_10px_rgb(255_255_255/80%)]"
+              className="font-times text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-normal text-gray-900 [text-shadow:0_0_20px_rgb(255_255_255/90%),0_0_10px_rgb(255_255_255/80%)]"
               variants={VARIANTS_SECTION}
             >
               {currentOrg.name}
@@ -157,7 +157,7 @@ export function Main({ currentIndex, onIndexChange }: { currentIndex: number; on
       </AnimatePresence>
 
       {/* Navigation Dots */}
-      <div className="absolute bottom-16 sm:bottom-20 flex gap-3">
+      <div className="absolute bottom-6 sm:bottom-8 flex gap-3">
         {AI_SOCIETY_ORGANIZATIONS.map((org, index) => (
           <button
             key={org.id}

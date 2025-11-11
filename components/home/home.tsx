@@ -11,9 +11,9 @@ export function Home() {
   const currentColor = AI_SOCIETY_ORGANIZATIONS[currentIndex].color;
 
   return (
-    <div className="relative min-h-screen">
+    <div className="relative min-h-screen flex flex-col">
       <Background color={currentColor} />
-      <div className="relative z-10">
+      <div className="relative z-10 flex flex-col min-h-screen">
         <Header />
         <Main currentIndex={currentIndex} onIndexChange={setCurrentIndex} />
         <Footer />
