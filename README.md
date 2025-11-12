@@ -17,17 +17,6 @@ This project showcases a unified platform for AI societies across multiple Swedi
 - **UU AI Society** - Uppsala University  
 - **SASSE AI Society** - Stockholm School of Economics
 
-## 🚀 Tech Stack
-
-- **Framework:** [Next.js 16](https://nextjs.org/)
-- **UI Library:** [React 19](https://react.dev/)
-- **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)
-- **Animations:** [Framer Motion](https://www.framer.com/motion/)
-- **Package Manager:** [Bun](https://bun.sh/)
-- **Language:** [TypeScript](https://www.typescriptlang.org/)
-- **UI Components:** [Radix UI](https://www.radix-ui.com/)
-- **Icons:** [Lucide React](https://lucide.dev/) & [React Icons](https://react-icons.github.io/react-icons/)
-
 ## 📋 Prerequisites
 
 Before you begin, ensure you have installed:
@@ -110,42 +99,6 @@ docker build -t ais .
 docker run -p 3000:3000 ais
 ```
 
-## 📁 Project Structure
-
-```
-ais/
-├── app/                    # Next.js app directory
-│   ├── layout.tsx         # Root layout
-│   ├── page.tsx           # Home page
-│   └── globals.css        # Global styles
-├── components/
-│   ├── home/              # Home page components
-│   │   ├── header.tsx
-│   │   ├── main.tsx
-│   │   ├── footer.tsx
-│   │   ├── connect/       # Social connection components
-│   │   └── constants.ts   # AI societies data
-│   └── ui/                # Reusable UI components
-│       ├── background.tsx
-│       ├── button.tsx
-│       ├── magnetic.tsx
-│       └── text-scramble.tsx
-├── lib/                   # Utility functions
-├── public/                # Static assets
-├── Dockerfile            # Docker configuration
-├── next.config.ts        # Next.js configuration
-├── tailwind.config.ts    # Tailwind CSS configuration
-└── package.json          # Dependencies
-```
-
-## 🎨 Key Components
-
-- **Background**: Dynamic color-changing background with smooth transitions
-- **BackgroundRippleEffect**: Interactive ripple animation
-- **Magnetic**: Magnetic hover effect for interactive elements
-- **TextScramble**: Text scramble animation effect
-- **Carousel**: Swipeable carousel for browsing AI societies
-
 ## 🧪 Linting
 
 Run ESLint to check code quality:
@@ -179,6 +132,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 For questions or support, please reach out to the respective AI society through their social media channels or contact@kthais.com.
 
----
 
-Built with ❤️ by the Swedish AI Society Community
