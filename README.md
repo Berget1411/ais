@@ -99,7 +99,7 @@ docker build -t ais .
 docker run -p 3000:3000 ais
 ```
 
-## 🧪 Linting
+## Linting
 
 Run ESLint to check code quality:
 
