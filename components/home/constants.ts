@@ -22,7 +22,7 @@ export const AI_SOCIETY_ORGANIZATIONS = [
   { 
     id: "kthais",
     shortName: "KTHAIS",
-    university: "KTH",
+    university: "KTH Royal Institute of Technology (KTH)",
     name: "KTH AI Society",
     location: "Stockholm, Sweden",
     logo: "/kthaisociety_logo.jpeg",
@@ -35,7 +35,7 @@ export const AI_SOCIETY_ORGANIZATIONS = [
   {
     id: "liuais",
     shortName: "LIUAIS",
-    university: "Linköping University",
+    university: "Linköping University (LIU)",
     name: "LIU AI Society",
     location: "Linköping, Sweden",
     logo: "/liu-logo.jpg",
@@ -47,7 +47,7 @@ export const AI_SOCIETY_ORGANIZATIONS = [
   {
     id: "uuais",
     shortName: "UUAIS",
-    university: "Uppsala University",
+    university: "Uppsala University (UU)",
     name: "UU AI Society",
     location: "Uppsala, Sweden",
  
@@ -69,5 +69,18 @@ export const AI_SOCIETY_ORGANIZATIONS = [
     website: undefined,
     linkedin: "https://www.linkedin.com/company/sasse-ai-society",
     instagram: undefined,
+  },
+  {
+    id: "lnuais",
+    shortName: "LNUAIS",
+    university: "Linnaeus University (LNU)",
+    name: "LNU AI Society",
+    location: "Stockholm, Sweden",
+    url: "https://www.lnuais.com/",
+    logo: "/lnuais_logo.jpeg",
+    color: "#ffe207",
+    website: "https://www.lnuais.com/",
+    linkedin: "https://www.linkedin.com/company/lnuais/about/",
+    instagram: "https://www.instagram.com/lnuaisociety/",
   }
 ];
